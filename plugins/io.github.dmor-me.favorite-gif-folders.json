@@ -1,0 +1,44 @@
+{
+  "api": 1,
+  "id": "io.github.dmor-me.favorite-gif-folders",
+  "name": "Favorite GIF Folders",
+  "version": "1.0.0",
+  "description": "Organize favorite GIFs into folders and categories, with bulk moves and shareable collections.",
+  "authors": [
+    "dmor-me"
+  ],
+  "repo": "https://github.com/dmor-me/Favorite-GIF-Folder",
+  "path": "",
+  "rev": "50cefc44be2ab7b41298bd7b706cad10444d25e8",
+  "sha256": "32fcf8981fdf83411f6743cb330133f5b35d6548bb382f28e73c1e688323d8bb",
+  "category": "Utilities",
+  "tags": [
+    "gifs",
+    "favorites",
+    "folders",
+    "collections"
+  ],
+  "source": "https://github.com/dmor-me/Favorite-GIF-Folder@50cefc44be2ab7b41298bd7b706cad10444d25e8",
+  "license": "GPL-3.0-or-later",
+  "icon": "icons/io.github.dmor-me.favorite-gif-folders.webp",
+  "permissions": {
+    "capabilities": [
+      "storage",
+      "ui.modify",
+      "media.read",
+      "messages.send",
+      "files.open",
+      "files.save",
+      "network"
+    ],
+    "network": [
+      "*.tenor.com",
+      "*.giphy.com",
+      "*.klipy.com",
+      "*.klipy.co",
+      "*.discordapp.net",
+      "*.discordapp.com",
+      "*.discord.com"
+    ]
+  }
+}
